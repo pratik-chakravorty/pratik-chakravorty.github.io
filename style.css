@@ -118,38 +118,38 @@ nav {
   border-radius: 4px; }
 
 .project-screenshot-1 {
-  background-image: url("img/app01.png");
+  background-image: url("img/app01.PNG");
   background-position: top;
   background-size: cover; }
 
 .project-screenshot-2 {
-  background-image: url("img/app02.png");
+  background-image: url("img/app02.PNG");
   background-position: top;
   background-size: cover; }
 
 .project-screenshot-3 {
-  background-image: url("img/app03.png");
+  background-image: url("img/app03.PNG");
   background-position: top;
   background-size: cover; }
 
 .project-screenshot-4 {
-  background-image: url("img/app04.png");
+  background-image: url("img/app04.PNG");
   background-position: top;
   background-size: cover; }
 
 .project-screenshot-5 {
-  background-image: url("img/app05.png");
+  background-image: url("img/app05.PNG");
   background-position: top;
   background-size: cover; }
 
   .project-screenshot-6 {
-    background-image: url("img/app06.png");
+    background-image: url("img/app06.PNG");
     background-position: top;
     background-size: cover;
   }
 
   .project-screenshot-7 {
-    background-image: url("img/app07.png");
+    background-image: url("img/app07.PNG");
     background-position: top;
     background-size: cover;
   }
