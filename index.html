@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pratik's Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="portfolio-site">
+    <main class="site">
+        <nav class="animated fadeIn">
+            <div class="container nav-items">
+                <div class="logo">
+                    <h2 class="my-logo">PC</h2>
+                </div>
+                <div class="nav-links">
+                    <a class="active" href="index.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+
+                <div class="button_container" id="toggle">
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </div>
+
+                <div class="overlay" id="overlay">
+                    <nav class="overlay-menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Work</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="intro-section animated bounceInLeft">
+            <h1>Hi, My Name is Pratik Chakravorty and
+                <br/> I am a Full-Stack Developer from India.</h1>
+        </div>
+
+        <div class="showcase-projects container">
+            <div class=" showcase">
+                <div class="showcase-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="project-screenshot-1">
+
+                    </div>
+                    <div class="content">
+                        <h2>CRUD App made with Reactjs and Firebase</h2>
+                        <p>The main purpose of this project was to learn CRUD operations using only React's setState API. Another
+                            goal of this project was to use the Rebase library which synchronizes with your application state
+                            with the Firebase realtime database.
+                        </p>
+
+                        <a href="hungry-wound.surge.sh" target="_blank">
+                            <button class="ghost-button button ">Demo</button>
+                        </a>
+                        <a href="https://github.com/pratik-chakravorty/React-Firebase-CRUD" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-screenshot-2">
+
+                    </div>
+                    <div class="content">
+                        <h2>React Calculator</h2>
+                        <p>The idea was to create a calculator using React and Math.js. React will be responsible for handling
+                            the UI and the interactivity and Math.js will handle the math operations.
+                        </p>
+                        <a href="http://damp-cracker.surge.sh/" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/pratik-chakravorty/React-Simple-Calculator" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="project-screenshot-3">
+
+                    </div>
+                    <div class="content">
+                        <h2>Item Cart Management App</h2>
+                        <p>This application was a part of Wes Bos's React course. It handles CRUD, adding items to orders and
+                            calculating the total amount just like a regular checkout system. It also leverages ReactCSSTransition
+                            group for adding custom animations.
+                        </p>
+                        <a href="http://react-cart-app.surge.sh" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/pratik-chakravorty/catch-of-the-day-react-app" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-screenshot-4">
+
+                    </div>
+                    <div class="content">
+                        <h2>Github Explorer</h2>
+                        <p>The sole objective for creating this application was to grasp the basics of React Router 4 and also
+                            to use the fetch API. This project makes use of Github's API to fetch users, repositories and
+                            also trending repositories for any given language. It uses ReactCSSTransitionGroup for adding
+                            custom animations.
+
+                        </p>
+                        <a href="http://light-rainstorm.surge.sh" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/pratik-chakravorty/Github-Explorer" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="project-screenshot-5">
+
+                    </div>
+                    <div class="content">
+                        <h2>React Firebase Authentication Application</h2>
+                        <p>I made this project mainly to understand how to add protected routes for any given application. Also
+                            this application presented the perfect opportunity to learn how to integrate React and Firebase's
+                            authentication methods.
+                        </p>
+                        <a href="http://cowardly-chalk.surge.sh/" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/pratik-chakravorty/react-firebase-authentication" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-screenshot-6">
+
+                    </div>
+                    <div class="content">
+                        <h2>React, Redux and Firebase Multi-User Application</h2>
+                        <p>A Single page React and Redux application where users can sign-in and sign-out also add, edit, delete
+                            and update posts.The main goal of this project was to use Redux for handling the application
+                            state and Firebase for persisting the state in a database.
+                        </p>
+                        <a href="http://tough-interest.surge.sh/" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/pratik-chakravorty/CRUD-with-React-Redux" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="project-screenshot-7">
+
+                    </div>
+                    <div class="content">
+                        <h2>RESTFUL API made using Nodejs,Express and MongoDB</h2>
+                        <p>A simple example of creating a RESTFUL API using Nodejs, Express and MongoDB.
+                        </p>
+                        <a href="http://my-notes-api.fr.openode.io/notes" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/pratik-chakravorty/RESTFUL-Notes-API" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="logo">
+                <h2 class="my-logo">PC</h2>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/pratik-chakravorty-05782a113/">
+                    LinkedIn
+                </a>
+                <a href="https://twitter.com/pratzc07">
+                    Twitter
+                </a>
+                <a href="mailto:pratikch1253@gmail.com" class="space-right">
+                    Email
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        const toggle = document.getElementById('toggle');
+        toggle.addEventListener('click', function () {
+            document.querySelector('#toggle').classList.toggle('active');
+            document.querySelector('#overlay').classList.toggle('open');
+            document.querySelector('.showcase-projects').classList.toggle('showcase-toggle')
+        })
+
+
+    </script>
+
+</body>
+
+</html>

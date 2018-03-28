@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pratik's Portfolio - About</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="portfoio-site">
+    <main class="site">
+        <nav class="animated fadeIn">
+            <div class="container nav-items">
+                <div class="logo">
+                    <h2 class="my-logo">PC</h2>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Work</a>
+                    <a class="active" href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+
+                <div class="button_container" id="toggle">
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </div>
+
+                <div class="overlay" id="overlay">
+                    <nav class="overlay-menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Work</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="about-me-section">
+            <div class="profile-image animated bounceInLeft"></div>
+            <div class="my-goal animated fadeInLeftBig">
+                <h1>I am passionate about solving
+                    <br/> problems and providing solutions
+                    <br/> that are simple and elegant.</h1>
+            </div>
+        </div>
+
+        <div class="about-divider"></div>
+
+        <div class="more-about-me" data-aos="fade-up" data-aos-delay="200">
+            <h1>Hello. My name is Pratik</h1>
+        </div>
+
+        <div class="about-me-text" data-aos="fade-up" data-aos-delay="210">
+            <p>I am a fullstack developer currently living in Cork, Ireland.
+                <br/> I love designing and developing web applications. I also
+                <br/> enjoy learning new things. User-centered design and usability
+                <br/> are always my key priorities while designing any application
+                <br/> large or small.</p>
+        </div>
+
+        <div class="about-divider another-divider"></div>
+
+
+
+        <div class="more-about-me" data-aos="fade-up" data-aos-delay="200">
+            <h1>Skills</h1>
+        </div>
+
+        <div class="container">
+            <div class="myskills-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="one">
+                    <ul>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>React Native</li>
+                        <li>Nodejs</li>
+                    </ul>
+                </div>
+                <div class="two">
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>Flask</li>
+                        <li>Gatsby</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about-divider another-divider-2"></div>
+
+        <div class="container">
+            <div class="linkedcontainer" data-aos="fade-up" data-aos-delay="200">
+                <div class="abouttxt">View my complete profile on
+                    <a class="active" href="https://www.linkedin.com/in/pratik-chakravorty-05782a113/">LinkedIn</a>
+                </div>
+                <div class="abouttxt">Feel Free to
+                    <a class="active" href="https://drive.google.com/open?id=1xcKrBAVTi4a49TcdpaCoJs-YSIPSPTpl">download</a> my resume, shoot me an
+                    <a href="mailto:pratikch1253@gmail.com" class="active">email</a> or connect with me on
+                    <a href="https://www.linkedin.com/in/pratik-chakravorty-05782a113/">LinkedIn</a> and
+                    <a href="https://twitter.com/pratzc07">Twitter.</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="logo">
+                <h2 class="my-logo">PC</h2>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/pratik-chakravorty-05782a113/">
+                    LinkedIn
+                </a>
+                <a href="https://twitter.com/pratzc07">
+                    Twitter
+                </a>
+                <a href="mailto:pratikch1253@gmail.com" class="space-right">
+                    Email
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        const toggle = document.getElementById('toggle');
+        toggle.addEventListener('click', function () {
+            document.querySelector('#toggle').classList.toggle('active');
+            document.querySelector('#overlay').classList.toggle('open');
+        })
+    </script>
+</body>
+
+</html>
