@@ -661,6 +661,10 @@ h3 {
     margin-right: 0px; 
   }
 
+  .about-me-text p {
+    text-align: center;
+  }
+
  }
 
  @media(max-width:340px) {
