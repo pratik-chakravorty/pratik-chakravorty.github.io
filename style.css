@@ -154,6 +154,14 @@ nav {
     background-size: cover;
   }
 
+  
+  .project-screenshot-8 {
+    background-image: url("img/blog1.png");
+    background-position: top;
+    background-size: cover;
+  }
+
+
 .content {
   font-size: 20px;
   padding: 20px;
@@ -290,6 +298,11 @@ footer {
     margin-top: 30px;
     border-radius: 4px; } 
   
+  }
+
+  .blogs h1 {
+    font-size:55px;
+    font-weight:200;
   }
 
 
@@ -620,9 +633,10 @@ h3 {
   }
   .intro-section h1 {
     font-weight: 200;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
-    line-height: 3.5rem; }
+    line-height: 3.9rem; 
+  }
 
 
 
@@ -643,6 +657,8 @@ h3 {
     font-size: 20px;
     line-height: 1.9rem; 
     font-weight:200;
+    padding:4px;
+    
   }
 
   .showcase-item h2 {
