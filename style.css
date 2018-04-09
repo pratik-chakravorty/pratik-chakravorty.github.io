@@ -631,9 +631,12 @@ h3 {
     font-weight:lighter;
     line-height:3.5rem;
   }
+  .intro-section {
+    padding:15px;
+  }
   .intro-section h1 {
     font-weight: 200;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     line-height: 3.9rem; 
   }
@@ -650,6 +653,8 @@ h3 {
     margin-top: 30px;
     border-radius: 4px; 
     padding:10px;
+    margin-left:10px;
+    margin-right:10px;
   
   }
 
