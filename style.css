@@ -683,7 +683,10 @@ h3 {
   }
 
   .about-me-text p {
-    text-align: center;
+    text-align: left;
+    font-size:22px;
+    line-height:2.0rem;
+    padding:10px;
   }
 
  }
